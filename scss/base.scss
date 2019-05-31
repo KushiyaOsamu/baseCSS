@@ -1,0 +1,47 @@
+@for $i from 1 through 30 {
+    .fem#{$i * 10} { font-size: #{$i / 10}em ;}
+}
+@for $i from 7 through 30 {
+    .fsize#{$i} { font-size: #{$i}px ;}
+}
+@for $i from 0 through 30 {
+    .mgtop#{$i * 10} { margin-top: #{$i * 10}px ;}
+}
+@for $i from 0 through 30 {
+    .mgbtm#{$i * 10} { margin-bottom: #{$i * 10}px ;}
+}
+@for $i from 0 through 30 {
+    .mgleft#{$i * 10} { margin-left: #{$i * 10}px ;}
+}
+@for $i from 0 through 30 {
+    .mgrigt#{$i * 10} { margin-right: #{$i * 10}px ;}
+}
+@for $i from 0 through 30 {
+    .pdtop#{$i * 10} { padding-top: #{$i * 10}px ;}
+}
+@for $i from 0 through 30 {
+    .pdbtm#{$i * 10} { padding-bottom: #{$i * 10}px ;}
+}
+@for $i from 0 through 30 {
+    .pdleft#{$i * 10} { padding-left: #{$i * 10}px ;}
+}
+@for $i from 0 through 30 {
+    .pdrigt#{$i * 10} { padding-right: #{$i * 10}px ;}
+}
+
+.nml {font-weight:normal;}
+.bld {font-weight:bold;}
+
+.gothic {font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;}
+.mincho { font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; }
+
+.alrigt {text-align: right;}
+.alleft {text-align: left;}
+.alcent {text-align: center;}
+
+.tate {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    letter-spacing: 4px;
+  }
